@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ojort\\source\\repos\\Lab1ED2_1182222\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0793868D-0BE7-4345-A740-34052B957DD1}|Lab1ED2_1182222\\Lab1ED2_1182222.csproj|c:\\users\\ojort\\source\\repos\\lab1ed2_1182222\\lab1ed2_1182222\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0793868D-0BE7-4345-A740-34052B957DD1}|Lab1ED2_1182222\\Lab1ED2_1182222.csproj|solutionrelative:lab1ed2_1182222\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0793868D-0BE7-4345-A740-34052B957DD1}|Lab1ED2_1182222\\Lab1ED2_1182222.csproj|c:\\users\\ojort\\source\\repos\\lab1ed2_1182222\\lab1ed2_1182222\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0793868D-0BE7-4345-A740-34052B957DD1}|Lab1ED2_1182222\\Lab1ED2_1182222.csproj|solutionrelative:lab1ed2_1182222\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0793868D-0BE7-4345-A740-34052B957DD1}|Lab1ED2_1182222\\Lab1ED2_1182222.csproj|c:\\users\\ojort\\source\\repos\\lab1ed2_1182222\\lab1ed2_1182222\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0793868D-0BE7-4345-A740-34052B957DD1}|Lab1ED2_1182222\\Lab1ED2_1182222.csproj|solutionrelative:lab1ed2_1182222\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\ojort\\source\\repos\\Lab1ED2_1182222\\Lab1ED2_1182222\\Inventory.cs",
+              "RelativeDocumentMoniker": "Lab1ED2_1182222\\Inventory.cs",
+              "ToolTip": "C:\\Users\\ojort\\source\\repos\\Lab1ED2_1182222\\Lab1ED2_1182222\\Inventory.cs",
+              "RelativeToolTip": "Lab1ED2_1182222\\Inventory.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:00:08.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\ojort\\source\\repos\\Lab1ED2_1182222\\Lab1ED2_1182222\\Book.cs",
+              "RelativeDocumentMoniker": "Lab1ED2_1182222\\Book.cs",
+              "ToolTip": "C:\\Users\\ojort\\source\\repos\\Lab1ED2_1182222\\Lab1ED2_1182222\\Book.cs",
+              "RelativeToolTip": "Lab1ED2_1182222\\Book.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:58:55.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ojort\\source\\repos\\Lab1ED2_1182222\\Lab1ED2_1182222\\Program.cs",
+              "RelativeDocumentMoniker": "Lab1ED2_1182222\\Program.cs",
+              "ToolTip": "C:\\Users\\ojort\\source\\repos\\Lab1ED2_1182222\\Lab1ED2_1182222\\Program.cs",
+              "RelativeToolTip": "Lab1ED2_1182222\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T06:57:48.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

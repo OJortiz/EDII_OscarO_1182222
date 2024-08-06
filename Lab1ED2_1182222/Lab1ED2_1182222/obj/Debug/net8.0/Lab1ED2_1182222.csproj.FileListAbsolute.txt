@@ -1,0 +1,17 @@
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\bin\Debug\net8.0\Lab1ED2_1182222.exe
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\bin\Debug\net8.0\Lab1ED2_1182222.deps.json
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\bin\Debug\net8.0\Lab1ED2_1182222.runtimeconfig.json
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\bin\Debug\net8.0\Lab1ED2_1182222.dll
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\bin\Debug\net8.0\Lab1ED2_1182222.pdb
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\Lab1ED2_1182222.csproj.AssemblyReference.cache
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\Lab1ED2_1182222.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\Lab1ED2_1182222.AssemblyInfoInputs.cache
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\Lab1ED2_1182222.AssemblyInfo.cs
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\Lab1ED2_1182222.csproj.CoreCompileInputs.cache
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\Lab1ED2_.34F41990.Up2Date
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\Lab1ED2_1182222.dll
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\refint\Lab1ED2_1182222.dll
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\Lab1ED2_1182222.pdb
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\Lab1ED2_1182222.genruntimeconfig.cache
+C:\Users\ojort\source\repos\Lab1ED2_1182222\Lab1ED2_1182222\obj\Debug\net8.0\ref\Lab1ED2_1182222.dll
