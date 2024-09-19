@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="bin\Debug\net8.0\100Klab01_books.csv" />
+    <None Include="bin\Debug\net8.0\100Klab01_search.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 

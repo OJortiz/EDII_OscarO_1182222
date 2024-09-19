@@ -1,68 +1,68 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.IO;
-using Newtonsoft.Json; //Importante para trabajar con JSON 
+using Newtonsoft.Json;
 using Lab1ED2_1182222;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        Inventory inventory = new Inventory(); //Nuevo inventario
+        Inventory inventory = new Inventory();
 
-        // Ruta de los archivos CSV
-        string inputLogFilePath = @"lab01_books.csv";
-        string searchFilePath = @"lab01_search.csv";
+        string inputLogFilePath = @"100Klab01_books.csv";
+        string searchFilePath = @"100Klab01_search.csv";
         string outputFilePath = @"search_results.txt";
 
-        // Leer bitácora de entrada desde un archivo CSV
         var log = File.ReadAllLines(inputLogFilePath);
 
-        foreach (var entry in log) //Recorrer todo el archivo de libros
+        foreach (var entry in log)
         {
-            var parts = entry.Split(';'); //Dividir en cada punto y coma
-            var operation = parts[0].Trim(); //Elimina los espacios en blanco y asigna operaciones
-            var json = parts[1].Trim();//Asigna los valores del JSON
+            var parts = entry.Split(';');
+            var operation = parts[0].Trim();
+            var json = parts[1].Trim();
 
             if (operation == "INSERT")
             {
-                var book = JsonConvert.DeserializeObject<Book>(json);//Toma los datos de la variable json y la convierte en una instancia de book
-                inventory.InsertBook(book);//Inserta el libro
+                var book = JsonConvert.DeserializeObject<Book>(json);
+                inventory.InsertBook(book);
             }
             else if (operation == "PATCH")
             {
-                var updateData = JsonConvert.DeserializeObject<Dictionary<string, string>>(json); //Guarda la información a actualizar con una llave
-                var isbn = updateData["isbn"]; //Guarda la llave
+                var updateData = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+                var isbn = updateData["isbn"];
                 updateData.Remove("isbn");
 
-                string author = updateData.ContainsKey("author") ? updateData["author"] : null; //Evalua si los atributos son null
+                string name = updateData.ContainsKey("name") ? updateData["name"] : null; // Verifica si el nombre está en los datos para actualizar
+                string author = updateData.ContainsKey("author") ? updateData["author"] : null;
+                string category = updateData.ContainsKey("category") ? updateData["category"] : null; // Manejo de categoría
                 decimal? price = updateData.ContainsKey("price") ? decimal.Parse(updateData["price"]) : (decimal?)null;
                 int? quantity = updateData.ContainsKey("quantity") ? int.Parse(updateData["quantity"]) : (int?)null;
 
-                inventory.UpdateBook(isbn, author, price, quantity); //Actualiza los datos del libro, con los nuevos valores
+                inventory.UpdateBook(isbn, name, author, category, price, quantity); // Actualización de categoría
             }
             else if (operation == "DELETE")
             {
-                var deleteData = JsonConvert.DeserializeObject<Dictionary<string, string>>(json); //Guarda los datos a borrar con una llave
-                var isbn = deleteData["isbn"]; //Guarda la llave
-                inventory.DeleteBook(isbn); //Borra el libro según su llave
+                var deleteData = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+                var isbn = deleteData["isbn"];
+                inventory.DeleteBook(isbn);
             }
         }
 
-        // Leer archivo de búsqueda y buscar libros por nombre
         var searchQueries = File.ReadAllLines(searchFilePath);
         List<string> searchResults = new List<string>();
 
-        foreach (var entry in searchQueries) //Recorre todas las lineas de SEARCH
+        foreach (var entry in searchQueries)
         {
-            var parts = entry.Split(';'); //Divide al encontrar punto y coma
-            if (parts[0].Trim() == "SEARCH") //Si la primera parte es de busqueda 
+            var parts = entry.Split(';');
+            if (parts[0].Trim() == "SEARCH")
             {
-                var json = parts[1].Trim(); //Elimina espacios en el json del libro
-                var searchData = JsonConvert.DeserializeObject<Dictionary<string, string>>(json); //Guarda la informacion a buscar en un diccionario
+                var json = parts[1].Trim();
+                var searchData = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
                 var name = searchData["name"];
 
-                var results = inventory.SearchBooksByName(name); //Trae cada resultado que coincida los nombres con los libros en inventario
+                var results = inventory.SearchBooksByName(name);
                 foreach (var book in results)
                 {
                     searchResults.Add(book.ToString());
@@ -70,7 +70,6 @@ public class Program
             }
         }
 
-        // Escribir los resultados en el archivo de salida
         File.WriteAllLines(outputFilePath, searchResults);
 
         Console.WriteLine($"Resultados guardados en {outputFilePath}");

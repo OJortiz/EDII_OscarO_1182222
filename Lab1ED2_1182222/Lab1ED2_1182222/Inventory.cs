@@ -1,45 +1,48 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Xml.Linq;
 
 namespace Lab1ED2_1182222
 {
     public class Inventory
     {
-        private List<Book> books; //Lista de libros
+        private List<Book> books;
 
-        public Inventory() //Constructor del inventario
+        public Inventory()
         {
             books = new List<Book>();
         }
 
-        public void InsertBook(Book book) //Recibe un libro y lo agrega a la lista
+        public void InsertBook(Book book)
         {
             books.Add(book);
         }
 
-        public void DeleteBook(string isbn) //Recibe el ISBN y borra un libro
+        public void DeleteBook(string isbn)
         {
-            var book = books.FirstOrDefault(b => b.ISBN == isbn); //Busca el primer libro en el que el ISBN enviado coincida con el ISBN de un libro en la lista
-            if (book != null) 
+            var book = books.FirstOrDefault(b => b.ISBN == isbn);
+            if (book != null)
             {
-                books.Remove(book); //Si el libro es distinto a null, lo borra
+                books.Remove(book);
             }
         }
 
-        public void UpdateBook(string isbn, string author = null, decimal? price = null, int? quantity = null)
+        public void UpdateBook(string isbn, string name = null, string author = null, string category = null, decimal? price = null, int? quantity = null)
         {
-            var book = books.FirstOrDefault(b => b.ISBN == isbn); //Busca coincidencias entre los ISBN
-            if (book != null) //Si no es null
+            var book = books.FirstOrDefault(b => b.ISBN == isbn);
+            if (book != null)
             {
-                if (author != null) book.Author = author; //Los datos se actualizan a los enviados en el parametro
+                if (name != null) book.Name = name;  // Añadimos la lógica para actualizar el nombre
+                if (author != null) book.Author = author;
+                if (category != null) book.Category = category; // Actualiza la categoría
                 if (price.HasValue) book.Price = price.Value;
                 if (quantity.HasValue) book.Quantity = quantity.Value;
             }
         }
 
-        public List<Book> SearchBooksByName(string name) //Funcion de busqueda de libros
+        public List<Book> SearchBooksByName(string name)
         {
-            return books.Where(b => b.Name.Equals(name, System.StringComparison.OrdinalIgnoreCase)).ToList(); //Busca las coincidencias en los nombres y los devuelve como lista
+            return books.Where(b => b.Name.Equals(name, System.StringComparison.OrdinalIgnoreCase)).ToList();
         }
     }
 }
