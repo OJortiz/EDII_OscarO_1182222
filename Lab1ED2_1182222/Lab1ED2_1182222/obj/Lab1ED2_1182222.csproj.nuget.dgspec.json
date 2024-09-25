@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Estructura de datos 2\\Lab1ED2_1182222\\Lab1ED2_1182222\\Lab1ED2_1182222.csproj": {}
+    "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Base de Datos 2\\EDII_OscarO_1182222-main\\EDII_OscarO_1182222-main\\Lab1ED2_1182222\\Lab1ED2_1182222\\Lab1ED2_1182222.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Estructura de datos 2\\Lab1ED2_1182222\\Lab1ED2_1182222\\Lab1ED2_1182222.csproj": {
+    "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Base de Datos 2\\EDII_OscarO_1182222-main\\EDII_OscarO_1182222-main\\Lab1ED2_1182222\\Lab1ED2_1182222\\Lab1ED2_1182222.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Estructura de datos 2\\Lab1ED2_1182222\\Lab1ED2_1182222\\Lab1ED2_1182222.csproj",
+        "projectUniqueName": "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Base de Datos 2\\EDII_OscarO_1182222-main\\EDII_OscarO_1182222-main\\Lab1ED2_1182222\\Lab1ED2_1182222\\Lab1ED2_1182222.csproj",
         "projectName": "Lab1ED2_1182222",
-        "projectPath": "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Estructura de datos 2\\Lab1ED2_1182222\\Lab1ED2_1182222\\Lab1ED2_1182222.csproj",
+        "projectPath": "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Base de Datos 2\\EDII_OscarO_1182222-main\\EDII_OscarO_1182222-main\\Lab1ED2_1182222\\Lab1ED2_1182222\\Lab1ED2_1182222.csproj",
         "packagesPath": "C:\\Users\\ojort\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Estructura de datos 2\\Lab1ED2_1182222\\Lab1ED2_1182222\\obj\\",
+        "outputPath": "C:\\Users\\ojort\\Escritorio\\Segundo Semestre 2024\\Base de Datos 2\\EDII_OscarO_1182222-main\\EDII_OscarO_1182222-main\\Lab1ED2_1182222\\Lab1ED2_1182222\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ojort\\AppData\\Roaming\\NuGet\\NuGet.Config",
